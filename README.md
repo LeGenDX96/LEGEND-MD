@@ -1,445 +1,114 @@
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- LEGEND MD - WhatsApp Bot Documentation -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=FF033E&center=true&width=1000&height=100&lines=LEGEND-MD-BOT" alt="Typing SVG" /></a>
 
-# 🤖 LEGEND MD - Advanced WhatsApp Bot
+<p align="center">
+  <h1 align="center">⚡ LEGEND‑MD v1.0 ⚡</h1>
+</p>
 
-> **A powerful, modular WhatsApp bot with anti-tamper protection, multi-platform media downloads, and flexible command system**
+> **`Ultra‑Fast • Multi‑Device • Lightweight`**
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Node](https://img.shields.io/badge/node-18%2B-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-Active-success)
+---
+<p align="center">
+  <a href="https://github.com/Legend-Team/LEGEND-MD">
+    <img src="http://readme-typing-svg.herokuapp.com?color=00FFFF&center=true&vCenter=true&multiline=false&lines=LEGEND‑MD+MultiDevice;Developed+by+Legend+Team;Give+star+and+forks+🌟" alt="LEGEND‑MD Readme">
+  </a>
+</p>
+
+<a><img src='https://i.ibb.co/Y46jgcpL/2289.jpg' width="100%"/></a>
+<h1 align="center"> LEGEND‑MD </h1> 
+<p align="center">The bot that defines speed & simplicity.</p>
+
+<p align="center">
+  <h2>📢 WhatsApp Channel</h2>
+  <a href="https://whatsapp.com/channel/" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/ Join Channel For Updates-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+</p>
+
+<p align="center"> LEGEND‑MD uses  
+  <a href="https://github.com/WhiskeySockets/Baileys">Multi‑Device Baileys.</a>
+</p>
+<p align="center">
+  <img title="Whatsapp-Bot-Javascript" src="https://img.shields.io/badge/Javascript-363303?style=for-the-badge&logo=javascript&logoColor=c6c631"></img>
+</p>
 
 ---
 
-## ✨ Features
-
-### 🎯 Core Features
-- ✅ **Multi-Device Support** - Connect from any device using Pair Code
-- ✅ **Modular Command System** - Easy-to-add plugins and extensions
-- ✅ **Anti-Tamper Protection** - Watermark verification on all bot messages
-- ✅ **Auto Features** - Status reading, auto-react, message reading
-- ✅ **Group Management** - Kick, promote, demote, warn users
-- ✅ **Beautiful UI** - Formatted messages with ASCII boxes and emojis
-
-### 📥 Media Downloads
-- 📱 **Facebook** - Download videos and photos
-- 📷 **Instagram** - Download reels, photos, and videos
-- 🎵 **TikTok** - Download videos without watermark
-- 🎬 **YouTube** - Download videos and audio (MP3)
-- 🐦 **Twitter/X** - Download media and videos
-- 🖼️ **Sticker Creator** - Convert images to WhatsApp stickers
-
-### 🛡️ Security & Anti-Features
-- 🔒 **Anti-Link** - Remove users posting links
-- 🚫 **Anti-Delete** - Log deleted messages
-- ⚠️ **Warning System** - Automatic kick after warnings
-- 👤 **Owner Protection** - Owner-only sensitive commands
-- 🔐 **Pair Code Auth** - No QR code exposure
-
-### 🎮 Owner Commands
-- `.eval <code>` - Execute JavaScript
-- `.restart` - Restart the bot
-- `.shutdown` - Shutdown bot
-- `.getfile <path>` - Read file contents
+### 🔐 **GET PAIRING CODE (No QR, No Session ID)**
+1. **[CLICK HERE FOR PAIR CODE](https://your-pair-site.render.com/)**  
+2. **Open WhatsApp > Linked Devices > Link a Device**  
+3. **Enter the code shown on the site.**
 
 ---
 
-## 📋 Command Categories
+### 🚀 **Deploy to your favourite platform**
 
-### 🟢 General Commands
-```
-.ping              Check bot latency
-.menu              Show command menu
-.menu2             Complete command list
-.help [command]    Get help on commands
-.alive             Check bot status
-```
+<table align="center">
+  <tr>
+    <td><a href="https://dashboard.heroku.com/new?template=https://github.com/Legend-Team/LEGEND-MD"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" /></a></td>
+    <td><a href="https://dashboard.render.com/web/new"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
+    <td><a href="https://app.netlify.com/"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=netlify&logoColor=white&labelColor=000000"/></a></td>
+  </tr>
+</table>
 
-### 🔵 Media Commands
-```
-.fb <url>          Download Facebook video
-.ig <url>          Download Instagram media
-.tiktok <url>      Download TikTok video
-.yt <url> [format] Download YouTube video/audio
-```
-
-### 🟠 Utility Commands
-```
-.sticker           Convert image to sticker
-.ocr              Read text from image
-.qr <text>        Generate QR code
-.base64 <text>    Encode to base64
-.decode <text>    Decode from base64
-```
-
-### 🟣 Group Commands (Admin/Owner)
-```
-.kick @user        Remove user from group
-.promote @user     Make user admin
-.demote @user      Remove user as admin
-.mute              Mute group
-.unmute            Unmute group
-```
-
-### 🟡 Owner Commands (Secret)
-```
-.eval <code>       Execute JavaScript code
-.restart           Restart bot
-.shutdown          Shutdown bot
-.getfile <path>    Read file contents
-```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ---
 
-## 🚀 Installation
-
-### Prerequisites
-- **Node.js** 18.0.0 or higher
-- **npm** (Node Package Manager)
-- WhatsApp account (for authentication)
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/LeGenDX96/LEGEND-MD.git
-cd LEGEND-MD
-```
-
-### Step 2: Install Dependencies
-```bash
-npm install
-```
-
-### Step 3: Configure Environment
-Create a `.env` file in the root directory:
-
-```env
-# Owner Information
-OWNER_NAME=YourName
-OWNER_NUMBER=923001234567
-
-# Bot Settings
-BOT_PREFIX=.
-BOT_NAME=LEGEND MD
-BOT_MODE=public
-
-# Auto Features
-AUTO_STATUS_SEEN=true
-AUTO_REACT=true
-READ_MESSAGE=true
-
-# Anti Features
-ANTI_LINK=true
-ANTI_LINK_KICK=true
-
-# Group Features
-WELCOME=true
-GOODBYE=true
-
-# Authentication
-USE_PAIR_CODE=true
-SESSION_ID=LEGEND-MD-SESSION
-```
-
-### Step 4: Start the Bot
-```bash
-npm start
-```
-
-Or for development with auto-restart:
-```bash
-npm run dev
-```
-
----
-
-## 🔐 Authentication (Pair Code)
-
-The bot uses **Pair Code** authentication for security:
-
-1. Run the bot: `npm start`
-2. Get your phone number ready (with country code)
-3. Enter your number when prompted
-4. Check WhatsApp Settings → Account → Login with Device Code
-5. Enter the code shown in terminal
-6. Bot will automatically connect!
-
-**Why Pair Code?**
-- ✅ More secure than QR codes
-- ✅ No account takeover risks
-- ✅ Session file never exposed
-- ✅ Can connect from multiple devices
-
----
-
-## 📁 Project Structure
-
-```
-LEGEND-MD/
-├── index.js                 # Main entry point
-├── connection.js            # WhatsApp connection logic
-├── config.js               # Configuration module
-├── scrappers.js            # Media download functions
-├── package.json            # Dependencies
-├── .env                    # Environment variables
-│
-├── core/
-│   └── WaseemCommand.js    # Base command class (with anti-tamper)
-│
-├── plugins/
-│   ├── General/            # General commands
-│   │   ├── Ping.js
-│   │   ├── Menu.js
-│   │   ├── Menu2.js
-│   │   ├── Help.js
-│   │   └── Alive.js
-│   │
-│   ├── Media/              # Media download commands
-│   │   ├── Fb.js
-│   │   ├── Ig.js
-│   │   ├── Tiktok.js
-│   │   └── Yt.js
-│   │
-│   ├── Utility/            # Utility commands
-│   │   └── Sticker.js
-│   │
-│   ├── Group/              # Group management
-│   │   └── Kick.js
-│   │
-│   └── Owner/              # Owner-only commands
-│       └── Dev.js
-│
-└── README.md               # This file
-```
-
----
-
-## 🔒 Anti-Tamper Protection
-
-**LEGEND MD has built-in anti-tamper security:**
-
-### Watermark Verification
-Every command output MUST contain the "Waseem" watermark. This ensures:
-- ✅ Bot messages are authentic
-- ✅ No unauthorized modifications
-- ✅ Owner verification
-
-### How It Works
-1. Every command extends `WaseemCommand` class
-2. The class wraps `conn.sendMessage()` 
-3. Final messages are checked for watermark
-4. Messages without watermark are rejected
-5. Error is logged and command fails
-
-### Example Command
-```javascript
-const response = `
-Your message here...
-
-${WATERMARK}  // Must include!
-`;
-
-await conn.sendMessage(jid, { text: response });
-```
-
----
-
-## ⚙️ Configuration Guide
-
-### Owner Settings
-```env
-OWNER_NAME=Waseem           # Your name
-OWNER_NUMBER=923001234567   # Your WhatsApp number
-```
-
-### Bot Behavior
-```env
-BOT_PREFIX=.                # Command prefix
-BOT_NAME=LEGEND MD          # Bot name
-BOT_MODE=public             # public or private
-```
-
-### Features
-```env
-AUTO_STATUS_SEEN=true       # Auto-read status
-AUTO_REACT=true             # Auto-react to messages
-READ_MESSAGE=true           # Mark as read
-ANTI_LINK=true              # Remove link senders
-WELCOME=true                # Welcome new members
-```
-
----
-
-## 📖 Creating Custom Commands
-
-### Basic Command Template
-
-```javascript
-const WaseemCommand = require('../../core/WaseemCommand.js');
-const { WATERMARK } = require('../../config.js');
-const chalk = require('chalk');
-
-module.exports = class MyCommand extends WaseemCommand {
-  constructor() {
-    super({
-      name: 'mycommand',
-      aliases: ['my', 'cmd'],
-      category: 'General',
-      description: 'What does this command do',
-      usage: '.mycommand [arguments]',
-      reaction: {
-        loading: '⏳',
-        working: '🔄',
-        success: '✅',
-        error: '❌'
-      },
-      cooldown: 5,
-      run: async (conn, msg, args, config) => {
-        try {
-          // Your command logic here
-          
-          const response = `
-Your response...
-
-${WATERMARK}`;  // Always include watermark!
-
-          await conn.sendMessage(msg.key.remoteJid, {
-            text: response
-          });
-
-          console.log(chalk.green('✅ Command executed'));
-        } catch (error) {
-          throw error;
-        }
-      }
-    });
-  }
-};
-```
-
-### Placing Your Command
-```
-plugins/
-└── General/
-    └── MyCommand.js
-```
-
-The bot automatically loads all commands from the `plugins/` directory!
-
----
-
-## 🐛 Troubleshooting
-
-### Bot Won't Connect
-- Check internet connection
-- Verify WhatsApp account is active
-- Try re-authenticating with Pair Code
-- Check logs for errors
-
-### Commands Not Working
-- Verify prefix in `.env` (default: `.`)
-- Check command syntax
-- Ensure message contains watermark
-- View console logs for errors
-
-### Media Download Fails
-- Check if URL is valid
-- Verify internet connection
-- Some platforms may be blocked
-- Try using a VPN if needed
-
-### Permission Denied Errors
-- Ensure bot has message send permission
-- In groups, make bot an admin
-- Owner commands only work from owner number
-
----
-
-## 📊 API Endpoints
-
-The bot runs an Express server for health checks:
+## 🌟 **BOT FEATURES**
 
 ```bash
-GET /              # Health check
-GET /status        # Bot status and uptime
+✦ Antidelete, Antiviewonce, Antilink
+✦ High‑speed YT, TikTok, FB, IG Downloaders
+✦ AI Chat & Image Analysis (optional)
+✦ Group Management (welcome, promote, demote, kick)
+✦ Lightweight – no heavy database
+✦ Pair‑Code login only – safe & simple
+✦ Futuristic, clean menu UI
 ```
 
-Example:
-```bash
-curl http://localhost:9090/status
-```
-
-Response:
-```json
-{
-  "status": "online",
-  "bot": "LEGEND MD",
-  "uptime": 3600,
-  "memory": {...},
-  "timestamp": "2026-08-08T10:30:00.000Z"
-}
-```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ---
 
-## 🤝 Contributing
+🪀 SUPPORT
 
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+<div align="center">
+  <a href="https://whatsapp.com/channel/0029VaXXXXXXXXXX">
+    <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
+  </a>
+  <br><br>
+  <a href="https://api.whatsapp.com/send?phone=94779885727">
+    <img src="https://img.shields.io/badge/Contact-Owner-ff0000?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+</div>
 
 ---
 
-## 👤 Author
+⚠️ WARNING !
 
-**Waseem TechX** / **LeGenDX96**
+<div style="background-color: #000000; border-left: 5px solid #00ffff; padding: 10px; border-radius: 0 15px 15px 0; box-shadow: 0 0 15px #00ffff;">
+  <h3 style="color: #ff00ff; font-family: 'Orbitron', sans-serif;">DISCLAIMER</h3>
+  <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may lead to account bans. We are not responsible for any consequences.</p>
+</div>
 
-- GitHub: [@LeGenDX96](https://github.com/LeGenDX96)
-- Email: [waseemtech558@gmail.com](mailto:waseemtech558@gmail.com)
-
----
-
-## ⭐ Show Your Support
-
-Give this project a ⭐ if it helped you! Your support means a lot.
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ---
 
-## 📞 Support & Contact
+👑 CREDITS
 
-Need help? Have questions?
-
-- 📧 Email: waseemtech558@gmail.com
-- 💬 WhatsApp: [Contact Owner]
-- 🐛 Report Issues: [GitHub Issues](https://github.com/LeGenDX96/LEGEND-MD/issues)
-
----
-
-## ⚠️ Disclaimer
-
-This bot is for educational purposes. Use responsibly and respect WhatsApp's Terms of Service. The author is not responsible for any misuse or account bans.
+Role Name
+Developer Legend Team
+Base Baileys (WhiskeySockets)
+Inspiration The open‑source community
 
 ---
 
-**Last Updated:** August 8, 2026
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**Status:** ✅ Active & Maintained
-
-```
-╔═══════════════════════════════════════════════════╗
-║  ✨ 𝐋𝐄𝐆𝐄𝐍𝐃 𝐌𝐃 ✨ WhatsApp Bot              ║
-║  *Powered by* 𝗪𝗮𝘀𝗲𝗲𝗺 𝗧𝗲𝗰𝗵𝗫               ║
-║  *Repository:* github.com/LeGenDX96/LEGEND-MD    ║
-╚═══════════════════════════════════════════════════╝
-```
+<p align="center"> 
+  <a href="https://github.com/Legend-Team/LEGEND-MD/fork">
+    <img src="https://img.shields.io/badge/Fork%20Repository-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+<p align="center">⭐ Star the repo if you like it!</p>
