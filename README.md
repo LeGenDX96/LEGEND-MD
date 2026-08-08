@@ -13,7 +13,6 @@
   </a>
 </p>
 
-<a><img src='https://i.ibb.co/Y46jgcpL/2289.jpg' width="100%"/></a>
 <h1 align="center"> LEGEND‑MD </h1> 
 <p align="center">The bot that defines speed & simplicity.</p>
 
